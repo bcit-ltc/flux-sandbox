@@ -12,4 +12,4 @@ patches:
       - op: add
         path: /spec/chart/spec/valuesFiles
         value:
-          - ./values.yaml
+          - ./values-latest.yaml
