@@ -10,6 +10,6 @@ patches:
       kind: HelmRelease
     patch: |-
       - op: add
-        path: /spec/valuesFiles
+        path: /spec/chart/spec/valuesFiles
         value:
           - ./values.yaml
